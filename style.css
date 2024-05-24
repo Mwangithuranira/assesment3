@@ -1,21 +1,5 @@
 
 
-
-/* Dark mode styles */
-.dark {
-    background-color: #202c37;
-    color: #fff;
-}
-
-.dark header {
-    background-color: #2b3945;
-}
-
-.dark #theme span {
-    color: #fff;
-}
-
-
 *{
     padding: 0;
     margin: 0;
@@ -32,6 +16,19 @@ body{
     font-weight: 400;
     font-size: 18px;
 }
+.dark {
+    background-color: #202c37;
+    color: #fff;
+}
+
+.dark header {
+    background-color: #2b3945;
+}
+
+.dark #theme span {
+    color: #fff;
+}
+
 header{
     /* border: 3px solid black; */
 }
