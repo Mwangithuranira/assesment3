@@ -1,5 +1,6 @@
 
 
+
 /* Dark mode styles */
 .dark {
     background-color: #202c37;
@@ -104,14 +105,15 @@ main{
     grid-gap: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-content:space-between;
 }
 
 main .container{
     /* border: 2px solid red; */
     box-shadow: 1px 1px 4px black;
     /* padding: 10px; */
-    height: max-content;
-    width: max-content;
+    height:95%;
+    width: 75%;
 }
 
 main .container .image{
@@ -121,19 +123,21 @@ main .container .image{
 }
 img{
     width: 100%;
+    height: 90%;
+
 }
 main .container .info{
-    margin: 0px 8px 10px;
+    margin: 0px 10px 10px;
 }
 
 main .container .info h3{
-    font-size: 1.2rem;
-    font-weight: 800;
+    font-size: 1.0rem;
+    font-weight: 600px;
     margin: 10px 0px; 
 }
 
 main .container .info p{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     margin: 10px 0px;
 }
 main .container .info .bold{
@@ -142,6 +146,6 @@ main .container .info .bold{
 }
 
 main .container .info .faint{
-    font-weight: 400;
+    font-weight: 350;
     color: rgb(65, 71, 68);
 }
