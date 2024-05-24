@@ -1,3 +1,28 @@
+// dark mode script
+document.addEventListener('DOMContentLoaded', function () {
+  const moonIcon = document.getElementById('theme').querySelector('span:first-child');
+  const darkModeText = document.getElementById('theme').querySelector('span:last-child');
+  const body = document.body;
+
+  // Toggle dark mode
+  function toggleDarkMode() {
+      body.classList.toggle('dark');
+      const isDarkMode = body.classList.contains('dark');
+      if (isDarkMode) {
+          darkModeText.textContent = 'Light Mode';
+          moonIcon.textContent = '☀️';
+      } else {
+          darkModeText.textContent = 'Dark Mode';
+          moonIcon.textContent = '🌙';
+      }
+  }
+
+  // Event listener for dark mode toggle
+  document.getElementById('theme').addEventListener('click', toggleDarkMode);
+});
+
+
+
 
 async function countryInformation() {
     // Define the URL of the JSON file
